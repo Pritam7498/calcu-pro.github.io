@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    font-size: 0;
+    margin-top: 10px;
+}
+
+.cc-in #result {
+    width: 385px;
+    height: 80px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-size: 35px;
+    outline: none;
+    text-align: right;
+    font-weight: 600;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px 0px blue;
+}
+
+.cc-in input {
+    padding-right: 5px;
+}
+
+.cal-body {
+    margin-top: 10px;
+}
+
+.cal-body .btn {
+    width: 67px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(243, 241, 241);
+    box-shadow: 0px 0px 7px 3px rgb(8, 39, 242);
+    padding: 6px;
+    margin: 5px;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.rr {
+    background-color: rgb(47, 226, 160);
+}
+
+.kk {
+    background-color: black;
+}
+
+.dd {
+    background-color: rgb(211, 107, 16);
+}
